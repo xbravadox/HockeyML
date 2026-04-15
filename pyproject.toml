@@ -1,0 +1,25 @@
+[project]
+name = "hockeyml"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Grzegorz Szymczyk",email = "xbravadox@gmail.com"}
+]
+requires-python = "^3.12"
+dependencies = [
+    "pandas (>=3.0.2,<4.0.0)",
+    "numpy (>=2.4.4,<3.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "scikit-learn (>=1.8.0,<2.0.0)",
+    "xgboost (>=3.2.0,<4.0.0)",
+    "requests (>=2.33.1,<3.0.0)",
+    "hockey-scraper (>=1.40.3,<2.0.0)",
+    "streamlit (>=1.56.0,<2.0.0)",
+    "sqlalchemy (>=2.0.49,<3.0.0)",
+    "ipykernel (>=7.2.0,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
